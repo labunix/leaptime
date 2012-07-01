@@ -54,25 +54,26 @@ leapindicator.sh
 associd=0 status=4615 leap_add_sec, sync_ntp, 1 event, clock_sync,
 version="ntpd 4.2.6p2@1.2194-o Sun Oct 17 13:35:13 UTC 2010 (1)",
 processor="x86_64", system="Linux/2.6.32-5-amd64", leap=01, stratum=2,
-precision=-23, rootdelay=12.162, rootdisp=30.346, refid=133.243.238.164,
+precision=-23, rootdelay=12.162, rootdisp=33.211, refid=133.243.238.164,
 reftime=d398f9ac.dd5bc977  Sat, Jun 30 2012 13:06:04.864,
-clock=d398fd40.09d25f4a  Sat, Jun 30 2012 13:21:20.038, peer=38985,
+clock=d398fdff.5ade1af3  Sat, Jun 30 2012 13:24:31.354, peer=38985,
 tc=10, mintc=3, offset=0.780, frequency=-22.264, sys_jitter=0.716,
 clk_jitter=0.369, clk_wander=0.055
      remote           refid      st t when poll reach   delay   offset  jitter
 ==============================================================================
-*133.243.238.164 .NICT.           1 u  916 1024  377   12.162    0.780   0.716
+*133.243.238.164 .NICT.           1 u   62 1024  377   12.162    0.780   0.716
 ntp_gettime() returns code 1 (INS)
-  time d398fd40.0ba9a000  Sat, Jun 30 2012 13:21:20.045, (.045557),
-  maximum error 480202 us, estimated error 369 us
+  time d398fdff.5cd6c000  Sat, Jun 30 2012 13:24:31.362, (.362652),
+  maximum error 576202 us, estimated error 369 us
 ntp_adjtime() returns code 1 (INS)
   modes 0x0 (),
-  offset 623.000 us, frequency -22.264 ppm, interval 1 s,
-  maximum error 480202 us, estimated error 369 us,
+  offset 595.000 us, frequency -22.264 ppm, interval 1 s,
+  maximum error 576202 us, estimated error 369 us,
   status 0x4011 (PLL,INS,MODE),
   time constant 10, precision 1.000 us, tolerance 500 ppm,
-1341030080
-2012年06月30日 13時21分20秒
+1341030271
+369225603
+Sat Jun 30 04:24:31 UTC 2012
 
 [Description]
 LI Flag check.
